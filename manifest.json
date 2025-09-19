@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Instagram Automatic Profile Data Collector (InAProDaC)",
+    "version": "1.0",
+    "description": "Stores Instagram profile names, follower counts and bio into JSON.",
+    "permissions": ["scripting", "activeTab", "storage"],
+    "host_permissions": ["https://www.instagram.com/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://www.instagram.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  

@@ -1,6 +1,8 @@
 # InAProDaC - Instagram Automatic Profile Data Collector
 Chrome Browser extension to collect and store Instagram profile names, follower counts and bio in JSON (created with the help of ChatGPT)
 
+Works by running in the background while you browse profiles on Instagram via Chrome. Automatically collects and stores profile names, follower count and bio information in a JSON-format while you browse that can be downloaded afterwards or accessed via internal Chrome storage.
+
 ## Installation
 🚀 How to Run Locally
 1. Put all these files in a folder (e.g. insta_scraper_extension/).
